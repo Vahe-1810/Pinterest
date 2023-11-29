@@ -1,0 +1,85 @@
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    background: #fff;
+}
+
+.head-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+    gap: 5px;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+}
+
+.actions button {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.actions button:hover {
+    background: var(--secondary);
+}
+
+.head-right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.page {
+    cursor: pointer;
+}
+
+.page:hover {
+    text-decoration: underline;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.auth button {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.login {
+    background: var(--primary);
+    color: #fff;
+}
+
+.login:hover {
+    background: var(--primary-hover);
+}
+
+.signup:hover {
+    background: var(--secondary);
+}

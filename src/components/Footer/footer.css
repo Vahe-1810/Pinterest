@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #fff;
+    width: 100%;
+    gap: 10px;
+}
+
+.footer-links {
+    font-size: 13px;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
